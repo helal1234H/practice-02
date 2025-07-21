@@ -167,3 +167,89 @@ nav {
     margin-top: 65px;
 
 }
+
+/* questions section */
+.Questions h2 {
+    font-size: 40px;
+    color: #414040;
+    font-weight: 500px;
+
+
+}
+
+.Questions p {
+    font-size: 16px;
+    color:
+}
+
+.Questions {
+    text-align: center;
+}
+
+.question-title {
+    width: 570px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(243, 243, 243, 1);
+    font-size: 24px;
+    color: rgba(65, 64, 64, 1);
+    margin: 30px;
+}
+
+.question-title2 h3 {
+    font-size: 24px;
+    color: rgba(65, 64, 64, 1);
+
+}
+
+.question-title2 {
+    width: 500px;
+    height: 160px;
+    background-color: rgba(243, 243, 243, 1);
+    padding-left: 30px;
+    margin-left: 30px;
+    padding: 30px;
+
+}
+
+.question-area {
+    display: flex;
+    text-align: center;
+    gap: 40px;
+    margin-top: 64px;
+}
+
+/* contact section */
+.contact-title {
+    text-align: center;
+
+}
+
+.contact-title h3 {
+    font-size: 40px;
+    color: rgba(65, 64, 64, 1);
+
+}
+
+.contact-title p {
+    font-size: 16px;
+    color: rgba(112, 112, 112, 1);
+
+}
+
+.contact-discription {
+    width: 285px;
+    height: 250px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(243, 243, 243, 1);
+}
+
+.contact-item {
+    display: flex;
+}
