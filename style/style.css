@@ -1,0 +1,116 @@
+/* font styles */
+
+.eb-garamond-font-styles {
+    font-family: "EB Garamond", serif;
+
+}
+
+.poppins-font-styles2 {
+    font-family: "Poppins", sans-serif;
+}
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+
+/* common styles */
+.container {
+    max-width: 1270px;
+    margin: 0 auto;
+
+}
+
+/* nave styles */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.nav-title h1 {
+    font-size: 36px;
+    color: rgba(65, 64, 64, 1);
+    font-weight: 98px;
+}
+
+.list-item {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+}
+
+.list-item li {
+    list-style: none;
+}
+
+.list-item li a {
+    text-decoration: none;
+    color: rgba(112, 112, 112, 1);
+}
+
+.btn {
+    width: 220px;
+    height: 64px;
+    background-color: #B68C5A;
+    font-size: 18px;
+    color: #ffffffff;
+    border-style: none;
+    border-radius: 8px;
+    font-weight: 200px;
+
+
+}
+
+/* banner section */
+.Banner {
+    background-image: url(../images/banner.png);
+    width: 100%;
+    height: 550px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.Banner h1 {
+    font-size: 64px;
+    font-weight: 668px;
+    color: #FFFFFF;
+}
+
+.Banner p {
+    font-size: 16px;
+    font-weight: 600px;
+    color: rgba(231, 231, 231, 1);
+}
+
+.input input {
+    width: 500px;
+    height: 64px;
+    border-radius: 8px;
+    border-style: none;
+    background-color: #FFFFFF;
+    color: rgba(160, 160, 160, 1);
+    padding-left: 20px;
+
+}
+
+.input button {
+    width: 150px;
+    height: 64px;
+    font-size: 20px;
+    padding: 17px 39px;
+}
+
+/* practice area  */
