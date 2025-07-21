@@ -114,3 +114,56 @@ nav {
 }
 
 /* practice area  */
+.practice-area {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.practice-area h3 {
+    font-size: 40px;
+    font-size: ;
+    color: rgba(65, 64, 64, 1);
+
+}
+
+.practice-area p {
+    font-size: 16px;
+    color: rgba(112, 112, 112, 1);
+}
+
+.card-item {
+    width: 301px;
+    height: 399px;
+    text-align: center;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card-discription p i {
+    background-color: #B68C5A;
+    color: #FFFFFF;
+    border-radius: 2px;
+
+
+}
+
+.card-title {
+    font-size: 32px;
+    color: rgba(65, 64, 64, 1);
+}
+
+.card-item p {
+    color: rgba(112, 112, 112, 1);
+
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+    margin-left: 200PX;
+    margin-top: 65px;
+
+}
