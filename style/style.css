@@ -242,7 +242,7 @@ nav {
 .contact-discription {
     width: 285px;
     height: 250px;
-    border: 1px solid red;
+    border: 1px solid #ccc;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -251,5 +251,56 @@ nav {
 }
 
 .contact-item {
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    gap: 0px;
+    background-color: rgba(243, 243, 243, 1);
+    color: rgba(112, 112, 112, 1);
+}
+
+.contact-information {
     display: flex;
+    gap: 30px;
+    margin-top: 64px;
+    justify-content: center;
+
+}
+
+/* contact message section  */
+.input-item input {
+    display: grid;
+    width: 570px;
+    height: 60px;
+    background-color: rgba(243, 243, 243, 1);
+    color: rgba(112, 112, 112, 1);
+    border-radius: 8px;
+    margin-top: 30px;
+    border-style: none;
+    padding-left: 23px;
+
+
+}
+
+.input-item {
+
+    width: 570px;
+    height: 60px;
+    background-color: rgba(243, 243, 243, 1);
+    color: rgba(112, 112, 112, 1);
+
+
+}
+
+textarea {
+    resize: none;
+    background-color: rgba(243, 243, 243, 1);
+    color: rgba(112, 112, 112, 1);
+    margin-top: 30px;
+    padding-top: 23px;
+}
+
+.input-item button {
+    width: 570px;
+    height: 60px;
+    margin-top: 30px;
 }
