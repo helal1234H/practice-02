@@ -297,10 +297,69 @@ textarea {
     color: rgba(112, 112, 112, 1);
     margin-top: 30px;
     padding-top: 23px;
+    border-radius: 8px;
 }
 
 .input-item button {
     width: 570px;
     height: 60px;
     margin-top: 30px;
+}
+
+/* footer section */
+.business-title {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    text-align: center;
+    justify-content: center;
+}
+
+.use-full-link p a {
+    text-decoration: none;
+    color: #FFFFFF;
+
+
+
+}
+
+.use-full-link p {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.footer-section {
+    display: flex;
+    flex: 1;
+    text-align: center;
+    gap: 81px;
+}
+
+.footer-item {
+    flex: 1;
+}
+
+footer {
+    background-color: black;
+    margin-top: 120px;
+}
+
+.color {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.color input {
+    width: 200px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+.color button {
+    width: 72px;
+    height: 60px;
+    border-radius: 10px;
+    margin-left: 0px;
+
+    background-color: #B68C5A;
 }
